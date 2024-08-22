@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva;
+    font-size: 20px;
+    background-color: papayawhip;
+    
+}
+
+p, h1, h3 {
+    margin: 10px 5px;
+}
+
+h3 {
+    padding: 5px 0;
+}
+
+li {
+    margin: 10px 25px;
+}
+
+h2 {
+    margin: 10px 0;
+    
+  }
+
+  #btn {
+    padding: 5px;
+    background-color: #000000;
+    color: whitesmoke;
+  }
+
+a {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    color: peru;
+}
+
+a:visited {
+    color: purple;
+}
