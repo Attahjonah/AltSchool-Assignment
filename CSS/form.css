@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva;
+    font-size: 20px;
+    background-color: #e4d3d3f3 ;
+    min-width: 800px;
+    display: flex;
+    justify-content: center ;
+
+}
+
+
+/* .main-container {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.form {
+    width: 900px ;
+    padding: 10px;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    
+}
+
+.details {
+display: flex;
+justify-content: space-evenly;
+}
+
+input, select {
+    width: 250px;
+    height: 35px;
+    background-color: #e4d3d3f3;    
+}
+
+
+.first-last, .how {
+    margin-left: 125px ;
+}
+
+.btn {
+    margin-left: 125px;
+    width: 630px;
+    height: 35px;
+    background-color: #e4d3d3f3;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#us {
+    width: 630px;
+    height: 35px;
+    background-color: #e4d3d3f3;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.p2 {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a1 {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+a:hover, .a1:hover {
+    color:#cd853f;
+    background-color: #fff;
+}
+
+a:active, .a1:active {
+    color: red;
+}
+
+a:visited, a1:visited {
+    color: purple;
+}
