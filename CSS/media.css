@@ -35,16 +35,17 @@ p {
 a {
     text-decoration: none;
     font-weight: bolder;
+    color: #000;
 }
 
 a:hover {
-    color: coral;
+    color: papayawhip;
 }
 
 a:active {
     color: red;
 }
 
-a:visited {
+/* a:visited {
     color: purple;
-}
+} */
