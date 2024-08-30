@@ -9,18 +9,26 @@ body {
     font-family: Verdana, Geneva;
     font-size: 20px;
     background-color: #e4d3d3f3 ;
-    min-width: 800px;
+    min-width: 100vw;
     display: flex;
     justify-content: center ;
 
 }
 
 
-/* .main-container {
+.main-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Studies {
+    margin-top: 150px;
+    /* position: fixed;
+    top: 150px;
+    left: 0; */
     
-} */
+}
+
 
 .form {
     width: 900px ;
@@ -28,7 +36,7 @@ body {
     background-color: papayawhip;
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 0;
     
 }
 
@@ -36,6 +44,7 @@ body {
 display: flex;
 justify-content: space-evenly;
 }
+
 
 input, select {
     width: 250px;
@@ -60,6 +69,8 @@ input, select {
     color: #fff;
 }
 
+
+
 #us {
     width: 630px;
     height: 35px;
@@ -83,6 +94,10 @@ a {
     background-color: #000;
     color: #fff;
     padding: 5px;
+    width: 130px;
+    height: 35px;
+    position: sticky;
+    top: 0;
 }
 
 a:hover, .a1:hover {
